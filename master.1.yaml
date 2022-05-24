@@ -1,0 +1,7 @@
+tls-san:
+- mars01
+- kube-vip.zyzyx.virtnet
+- 192.168.1.240
+disable: rke2-ingress-nginx
+cni:
+- cilium

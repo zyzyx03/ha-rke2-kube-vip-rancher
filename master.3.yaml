@@ -1,0 +1,10 @@
+token: K10447397b7f58af96d33d721c33de578254ee744359cc430c1b8aad38da675e3f9::server:125ad45a5eca173787554adf65ced279
+server: https://kube-vip.zyzyx.virtnet:9345
+tls-san:
+- mars03
+- kube-vip.zyzyx.virtnet
+- 192.168.1.240
+disable:
+- rke2-ingress-nginx
+cni:
+- cilium
